@@ -20,6 +20,9 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
+              "src/assets/faviconElmet2.png",
+              "src/assets/elmet.png",
+              "src/assets/faviconElmet.ico",
               "src/assets"
             ],
             "styles": [
@@ -84,6 +87,7 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
+              "src/assets/faviconElmet.ico",
               "src/assets"
             ]
           }

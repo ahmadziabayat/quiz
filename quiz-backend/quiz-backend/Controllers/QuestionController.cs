@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace quiz_backend.Controllers
-{  
-    [Produces("application/json")]
+{
+   [Produces("application/json")]
     [Route("api/Questions")]
     [ApiController]
     public class QuestionController : ControllerBase
